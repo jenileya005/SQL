@@ -1,0 +1,4 @@
+-- Query assuming a 'City' column is present in the table
+SELECT * 
+FROM Employee 
+WHERE City = 'YourCityName';
