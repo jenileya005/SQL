@@ -1,0 +1,4 @@
+-- Query assuming a 'City' column is present
+SELECT * 
+FROM Employee 
+WHERE City IN ('Chennai', 'Madurai');
