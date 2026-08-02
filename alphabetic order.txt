@@ -1,0 +1,3 @@
+SELECT EmployeeID, FirstName, LastName, Department, Salary, HireDate
+FROM Employee 
+ORDER BY FirstName ASC, LastName ASC;
