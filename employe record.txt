@@ -1,0 +1,47 @@
+-- Create Employee Table
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Department VARCHAR(50),
+    Salary DECIMAL(10,2),
+    HireDate DATE
+);
+
+-- Insert 30 Employee Records
+INSERT INTO Employee (EmployeeID, FirstName, LastName, Department, Salary, HireDate) VALUES
+(101, 'John', 'Smith', 'HR', 45000.00, '2023-01-15'),
+(102, 'Alice', 'Johnson', 'IT', 60000.00, '2022-08-10'),
+(103, 'Robert', 'Brown', 'Finance', 55000.00, '2021-05-20'),
+(104, 'Emily', 'Davis', 'Marketing', 48000.00, '2023-03-12'),
+(105, 'Michael', 'Wilson', 'Sales', 52000.00, '2022-11-05'),
+(106, 'David', 'Miller', 'IT', 62000.00, '2020-07-18'),
+(107, 'Sophia', 'Taylor', 'HR', 47000.00, '2023-02-25'),
+(108, 'James', 'Anderson', 'Finance', 58000.00, '2021-09-30'),
+(109, 'Olivia', 'Thomas', 'Marketing', 49000.00, '2022-06-14'),
+(110, 'William', 'Jackson', 'Sales', 51000.00, '2020-12-01'),
+(111, 'Emma', 'White', 'IT', 64000.00, '2021-04-11'),
+(112, 'Benjamin', 'Harris', 'HR', 46000.00, '2022-10-19'),
+(113, 'Charlotte', 'Martin', 'Finance', 59000.00, '2023-01-09'),
+(114, 'Daniel', 'Thompson', 'Sales', 53000.00, '2021-08-23'),
+(115, 'Amelia', 'Garcia', 'Marketing', 50000.00, '2020-11-17'),
+(116, 'Matthew', 'Martinez', 'IT', 65000.00, '2019-05-29'),
+(117, 'Mia', 'Robinson', 'HR', 48000.00, '2023-04-08'),
+(118, 'Joseph', 'Clark', 'Finance', 61000.00, '2022-02-15'),
+(119, 'Harper', 'Rodriguez', 'Sales', 54000.00, '2021-10-21'),
+(120, 'Samuel', 'Lewis', 'Marketing', 51000.00, '2020-09-09'),
+(121, 'Evelyn', 'Lee', 'IT', 67000.00, '2019-12-12'),
+(122, 'Christopher', 'Walker', 'HR', 49000.00, '2022-05-27'),
+(123, 'Abigail', 'Hall', 'Finance', 62000.00, '2021-07-13'),
+(124, 'Andrew', 'Allen', 'Sales', 55000.00, '2023-03-18'),
+(125, 'Ella', 'Young', 'Marketing', 52000.00, '2022-01-24'),
+(126, 'Joshua', 'King', 'IT', 68000.00, '2020-08-16'),
+(127, 'Scarlett', 'Wright', 'HR', 50000.00, '2021-06-30'),
+(128, 'Ryan', 'Scott', 'Finance', 63000.00, '2023-02-07'),
+(129, 'Grace', 'Green', 'Sales', 56000.00, '2022-09-11'),
+(130, 'Nathan', 'Baker', 'Marketing', 53000.00, '2021-11-22');
+
+-- Display all employee records
+SELECT * FROM Employee;
+
+
