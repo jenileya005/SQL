@@ -1,0 +1,4 @@
+-- Query assuming a 'BirthDate' column is present
+SELECT * 
+FROM Employee 
+WHERE DATEDIFF(YEAR, BirthDate, GETDATE()) <= 30;
